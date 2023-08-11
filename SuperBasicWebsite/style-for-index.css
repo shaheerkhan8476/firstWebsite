@@ -1,0 +1,263 @@
+@font-face {
+  font-family: 'Lucida Handwriting';
+  src: url('fonts/lucida-handwriting.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mv-boli';
+  src: url('https://fonts.cdnfonts.com/css/mv-boli');
+}
+#mainContainer {
+  /* background-image: linear-gradient(rgb(242, 154, 255), #7568ff); */
+  background-image: url(https://64.media.tumblr.com/079c7253758cecd4cb6282c169f1196e/tumblr_orgn3lenpy1uzwgsuo1_400.gifv);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}
+#navBarContainer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}
+#textContainer {
+  width: 50%;
+  height: 20%;
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: opacity(60%);
+ 
+  border-color: black;
+  border-radius: 1.63rem;
+  margin-bottom: 20px;
+  margin-left: 4px;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+#text {
+  background:  #fcff9e;
+  text-shadow: 3px 3px #f64848;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;nt-weight: bold;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Lucida Handwriting', cursive;
+}
+#basicInfo {
+  margin-top: 50px;
+  position: relative;
+  width: 75%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+#imageContainer {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#infoCard {
+  height: 100%;
+  width: 34%;
+  background-image: linear-gradient(#9b92ff, rgb(243, 187, 252));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: opacity(50%);
+  backdrop-filter: blur(5px);
+  color: black;
+  flex-direction: column;
+}
+#image {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#textStyle {
+  font-size: 30px;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#textHeader {
+  height: 10%;
+  margin-bottom: 60px;
+  font-size: 40px;
+  color: #f64848;
+  font-family: 'MV Boli', sans-serif;
+  font-weight: bolder;
+}
+#hobbyContainer {
+  display: flex;
+  flex-direction: column;
+  background: rgb(155, 146, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(155, 146, 255, 1) 16%,
+    rgba(132, 98, 226, 1) 51%,
+    rgba(249, 177, 100, 1) 96%
+  );
+  width: 100%;
+  height: 100%;
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}
+#hobbyRow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 28%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#homeButton {
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  border-radius: 1.63rem;
+  border: transparent;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+#contactButton {
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  border-radius: 1.63rem;
+  border: transparent;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+#hobbyRowHeader {
+  margin-top: -30px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -5px;
+  font-family: 'MV Boli', sans-serif;
+}
+
+#glassEffect {
+  width: 25%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  margin-left: 30px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.63rem;
+}
+#imageContainer2 {
+  height: 100%;
+  width: 25%;
+  margin-right: 30px;
+  border-radius: 1.63rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  
+}
+#textEffect {
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+#glassEffectInvert {
+  width: 25%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  backdrop-filter: blur(15px);
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.63rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+#imageContainer2Invert {
+  height: 100%;
+  width: 25%;
+  margin-left: 30px;
+}
+#image2 {
+  border-radius: 1.63rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#glassEffectBasicInfo {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  backdrop-filter: blur(15px);
+  margin-left: 30px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.63rem;
+}
+
+#textOne {
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+}
+#homeButtonText {
+  text-decoration: none;
+  
+}
+#contactButtonText {
+  text-decoration: none;
+}
+a:hover {
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#homeButton:hover, #contactButton:hover {
+  border-color: black;
+  border-style: solid;
+  border-radius: 1.63rem;
+}

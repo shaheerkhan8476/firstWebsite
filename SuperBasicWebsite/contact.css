@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Lucida Handwriting';
+    src: url('fonts/lucida-handwriting.ttf') format('truetype');
+  }
+#mainContainer {
+width: 100%;
+height: 100%;
+background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+-webkit-user-select: none; 
+-ms-user-select: none; 
+user-select: none; 
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+#homeButton {
+    background-color: #A3C1AD;
+    border-radius: 1.63rem;
+    border: transparent;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+#contactButton {
+    background-color: #A3C1AD;
+    border-radius: 1.63rem;
+    border: transparent;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+#submit {
+  background-color: #A3C1AD;
+    border-radius: 1.63rem;
+    border: transparent;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+  #navBarContainer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+#contactFormContainer {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1.63rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#outputContainer {
+    margin-top: 50px;
+    background-color: #A3C1AD;
+    border-radius: 1.63rem;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outputText {
+    display:flex
+}
+#headerContainer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Lucida Handwriting', cursive;
+    color: white;
+}
+#nameLabel {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+#messageLabel {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+
+.animate-charcter
+{
+  background-image: linear-gradient(
+    90deg,
+    #bfadff 0%,
+    #bd8df1 29%,
+    #df77ff 67%,
+    rgb(236, 93, 226) 100%
+  );
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: moveAnimation 2s linear infinite;
+  font-size: 60px;
+}
+
+@keyframes moveAnimation {
+  to {
+    background-position: 200% center;
+  }
+}
+
+#homeButtonText {
+  text-decoration: none;
+  
+}
+#contactButtonText {
+  text-decoration: none;
+}
+a:hover {
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#homeButton:hover, #contactButton:hover {
+  border-color: black;
+  border-style: solid;
+  border-radius: 1.63rem;
+  
+}
+#submit:hover {
+  font-size: 25px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-color: white;
+  border-style: solid;
+  border-radius: 1.63rem;
+}

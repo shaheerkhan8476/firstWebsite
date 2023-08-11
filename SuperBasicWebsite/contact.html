@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="contact.css" />
+<script src="firstjavascript.js"></script>
+
+<div id="mainContainer">
+  <div id="navBarContainer">
+    <div id="Home">
+      <button id="homeButton">
+        <a href="index.html" id="homeButtonText">
+          Home
+        </a>
+      </button>
+    </div>
+    <div id="Contact">
+      <button id="contactButton">
+        <a href="contact.html" id="contactButtonText">Contact</a>
+      </button>
+    </div>
+  </div>
+  <div id = "headerContainer">
+    <div id="header" class = "animate-charcter">
+        Contact Me: 
+    </div>
+  </div>
+  <div id="contactFormContainer">
+    <form>
+      <b><label for="name" id="nameLabel">Name:</label><br /></b>
+      <input type="text" id="name" name="name" /><br />
+      <b><label for="message" id="messageLabel">Message:</label><br /></b>
+      <textarea
+        type="text"
+        id="message"
+        name="message"
+        rows="4"
+        cols="50"
+      ></textarea
+      ><br />
+    </form>
+    <input
+      type="submit"
+      id="submit"
+      name="submit"
+      onclick="showInput();"
+    /><br />
+    <div id="outputContainer">
+      <div id="outputText"> <span id="outputName"></span></div>
+    </div>
+  </div>
+</div>
